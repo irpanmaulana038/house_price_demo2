@@ -1,13 +1,16 @@
 # 🏡 House Price Prediction API with FastAPI
 
 This project serves a trained regression model as an API using FastAPI. It predicts house prices based on engineered features from housing data.
+project ini adalah membuat model prefiksi
 
 ## 🚀 Features
+
 - CSV upload endpoint to predict multiple house prices
 - Feature engineering with `create_features()` function
 - Scikit-learn pipeline integration
 
 ## 📁 Folder Structure
+
 - `app/`: Contains the FastAPI app and feature engineering code
 - `models/`: Contains the serialized model (`.pkl`)
 - `test.csv`: Example input
@@ -30,3 +33,4 @@ pip install -r requirements.txt
 # 4. Run the server
 uvicorn app.main:app --reload
 
+```
