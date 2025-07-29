@@ -1,7 +1,6 @@
 # 🏡 House Price Prediction API with FastAPI
 
 This project serves a trained regression model as an API using FastAPI. It predicts house prices based on engineered features from housing data.
-project ini adalah membuat model prefiksi
 
 ## 🚀 Features
 
@@ -34,3 +33,6 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 
 ```
+## 🗂️ Dataset
+This project uses the dataset from the House Prices - Advanced Regression Techniques competition on Kaggle.
+https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data
