@@ -1,7 +1,7 @@
 # 🏡 House Price Prediction API with FastAPI
 
 This project serves a trained regression model as an API using FastAPI. It predicts house prices based on engineered features from housing data.
-
+aims to predict house prices using regression model and evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price
 ## 🚀 Features
 
 - CSV upload endpoint to predict multiple house prices
@@ -36,3 +36,9 @@ uvicorn app.main:app --reload
 ## 🗂️ Dataset
 This project uses the dataset from the House Prices - Advanced Regression Techniques competition on Kaggle.
 https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data
+
+
+
+# Result
+The result is RMSE 0.11038 on X_test and 
+RMSE 0.12280 on test data
